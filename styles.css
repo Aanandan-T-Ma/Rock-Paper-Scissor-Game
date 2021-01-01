@@ -60,6 +60,7 @@ body{
 }
 .img-btn, .img-btn-c{
     border-radius: 10px;
+    border: none;
     transition-duration: .5s;
 }
 .img-btn:hover{
@@ -67,7 +68,7 @@ body{
     cursor: pointer;
 }
 .img-btn:focus{
-    box-shadow: 0 0 5px 5px #f04ce8;
+    box-shadow: 0 0 3px 5px #f04ce8;
     outline: none;
 }
 .img-btn-c:focus{
