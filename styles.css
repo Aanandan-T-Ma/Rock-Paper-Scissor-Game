@@ -1,0 +1,75 @@
+button{
+    margin-top:50px;
+    margin-left:150px;
+    height:100px;
+    width:300px;
+    padding:5px;
+    font-size:20px;
+}
+header{
+    text-align:center;
+    font-size:60px;
+    background-color:rgb(178, 5, 201);
+}
+footer{
+    font-family: Georgia, serif;
+    text-align:center;
+    margin-top: 30px;
+    transition-duration: .5s;
+}
+#im{
+    margin: 50px 145px 0px;
+    transition: transform 2s;
+}
+#im:hover{
+    transform: rotate(360deg);
+}
+table{
+    margin-top: 120px;
+    text-align: center;
+    width:20%;
+    font-family: cursive;
+}
+table,th,td{
+    padding:20px;
+    border:2px solid black;
+    border-collapse:collapse;
+}
+.controls{
+    background-color:rgb(240,30,30);
+    margin: 40px 0px 0px 280px;
+    border-radius: 10px;
+    transition-duration: .5s;
+}
+.controls:hover{
+    background-color:rgb(30,200,30);
+}
+.controls:focus{
+    outline: none;
+}
+body{
+    background-image: linear-gradient(to bottom right,#8640d6, #b318a6);
+}
+#ytbl{
+    float: left;
+    margin-left: 150px;
+}
+#ctbl{
+    float: right;
+    margin-right: 150px;
+}
+.img-btn, .img-btn-c{
+    border-radius: 10px;
+    transition-duration: .5s;
+}
+.img-btn:hover{
+    font-size: 30px;
+    cursor: pointer;
+}
+.img-btn:focus{
+    box-shadow: 0 0 5px 5px #f04ce8;
+    outline: none;
+}
+.img-btn-c:focus{
+    outline: none;
+}

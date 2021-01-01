@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>Rock,paper,scissor</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <header>Rock - Paper - Scissor</header>
+        <button onclick="restart()" class="controls">RESTART</button>
+        <button onclick="finish()" class="controls">FINISH</button><br>
+        <footer id="res"></footer>
+        <button onclick="play('rock')" class="img-btn" style="background-image:url('./images/rock.png');">Rock</button>
+        <button onclick="play('paper')" class="img-btn" style="background-image:url('./images/paper.png');">Paper</button>
+        <button onclick="play('scissor')" class="img-btn" style="background-image:url('./images/scissor.png');">Scissor</button>
+        <table id="ytbl">
+            <tr>
+                <th>You</th>
+            </tr>
+            <tr>
+                <td id="y">0</td>
+            </tr>
+        </table>
+        <img id="im" src="./images/rps.png" alt="game">
+        <table id="ctbl">
+            <tr>
+                <th>Computer</th>
+            </tr>
+            <tr>
+                <td id="c">0</td>
+            </tr>
+        </table>
+        <button id="ro" class="img-btn-c" style="background-image:url('./images/rock.png');">Rock</button>
+        <button id="pa" class="img-btn-c" style="background-image:url('./images/paper.png');">Paper</button>
+        <button id="sc" class="img-btn-c" style="background-image:url('./images/scissor.png');">Scissor</button>
+        <script src="./scripts.js"></script>
+    </body>
+</html>
