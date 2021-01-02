@@ -36,15 +36,17 @@ table,th,td{
     border-collapse:collapse;
 }
 .controls{
-    background-color:rgb(240,30,30);
+    background-color:rgb(30, 226, 240);
     margin: 40px 0px 0px 280px;
     border-radius: 10px;
+    border: none;
     transition-duration: .5s;
 }
 .controls:hover{
-    background-color:rgb(30,200,30);
+    background-color:rgb(31, 131, 245);
 }
 .controls:focus{
+    box-shadow: 0 0 3px 5px rgb(65, 150, 247);
     outline: none;
 }
 body{
